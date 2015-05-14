@@ -1,0 +1,14 @@
+(* programme *)
+program test ;
+const mini= 1; maxi = 3;
+var p, q;
+begin
+	p:=1;
+	q:=0;
+	while p <> 0 do
+	begin
+		read(p);
+		q:=q+p
+	end;
+	write(q);
+end.
